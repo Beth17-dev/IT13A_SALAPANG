@@ -24,7 +24,7 @@ public class lab_act1_arithmetics {
        System.out.println("10 * 4 + 6 = " + beth);
        System.out.println("(10 - 4) % 6 = " + pril);
        System.out.println("(10 + 4 + 6) / 3 = " + gab);
-       System.out.println("10 * 6 - (4 * 4) = + john");
+       System.out.println("10 * 6 - (4 * 4) =" + john);
       
       
    }
