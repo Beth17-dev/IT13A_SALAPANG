@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package prelim;
-
+import java.util.Scanner;
 /**
  *
  * @author User
@@ -11,21 +11,22 @@ package prelim;
 public class lab_act1_arithmetics {
     
    public static void main(String[] args) {
-       int A = 10;
-       int B = 4;
-       int C = 6;
-       int D = 3;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        int numbers[]= new int[5];
+        
+        System.out.println("Enter 5 numbers:");
+        
+        for(i=0;i<numbers.length;i++) {
+            System.out.println("Enter numbers "+(i+1)+" .");
+            numbers[i]=scanner.nextInt();
+        }
+        
+        int mostfrequent=numbers[0];
        
-       int beth = A * B + C;
-       int pril = (A - B) % C;
-       int gab = (A + B + C) / D;
-       int john = A * C - (B * B);
-       
-       System.out.println("10 * 4 + 6 = " + beth);
-       System.out.println("(10 - 4) % 6 = " + pril);
-       System.out.println("(10 + 4 + 6) / 3 = " + gab);
-       System.out.println("10 * 6 - (4 * 4) =" + john);
-      
-      
+        
+        
+
    }
 }
